@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "calculate-optimal-step-climb",
+  "description": "Determine gross weight vs tropopause wind gradient to identify minimum fuel altitude steps.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "route_waypoints": {
+        "type": "string"
+      },
+      "current_gross_weight_lbs": {
+        "type": "number"
+      },
+      "cost_index": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "route_waypoints",
+      "current_gross_weight_lbs"
+    ]
+  }
+}

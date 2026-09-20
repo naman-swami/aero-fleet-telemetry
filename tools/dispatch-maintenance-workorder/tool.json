@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "dispatch-maintenance-workorder",
+  "description": "Create ATA chapter maintenance task card for turnaround ground crew.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "ata_chapter": {
+        "type": "string"
+      },
+      "component_serial": {
+        "type": "string"
+      },
+      "fault_code": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "ata_chapter",
+      "fault_code"
+    ]
+  }
+}

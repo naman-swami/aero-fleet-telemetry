@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "analyze-flight-recorder-stream",
+  "description": "Parse high-rate sensor parameters from Quick Access Recorder (QAR) for thermodynamic anomalies.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "tail_number": {
+        "type": "string"
+      },
+      "flight_id": {
+        "type": "string"
+      },
+      "sample_window_minutes": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "tail_number",
+      "flight_id"
+    ]
+  }
+}

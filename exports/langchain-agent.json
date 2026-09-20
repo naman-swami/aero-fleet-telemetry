@@ -1,0 +1,10 @@
+{
+  "agent_type": "structured_chat",
+  "system_message": "You are AeroTelemetry \u2014 Predictive Avionics Maintenance & Fuel Route Optimizer. Ingest ARINC 429/717 flight data recorder bus telemetry to predict exhaust gas temperature margins and optimize en-route fuel efficiency.",
+  "llm": "gpt-4o",
+  "tools": [
+    "analyze-flight-recorder-stream",
+    "calculate-optimal-step-climb",
+    "dispatch-maintenance-workorder"
+  ]
+}
