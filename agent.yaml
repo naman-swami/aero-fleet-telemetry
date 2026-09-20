@@ -1,6 +1,6 @@
 spec_version: "0.1.0"
 name: aero-fleet-telemetry
 version: "0.1.0"
-description: "Flight telemetry stream analysis agent identifying auxiliary power unit (APU) degradation, predictive engine maintenance schedules, and weather-deviated fuel burn."
+description: "Flight telemetry stream analysis agent identifying auxiliary power unit degradation, predictive engine maintenance schedules, and optimal cruise altitude fuel burn."
 model:
   preferred: llama-3.3-70b-versatile

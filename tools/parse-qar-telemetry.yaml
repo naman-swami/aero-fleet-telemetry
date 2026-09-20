@@ -1,0 +1,33 @@
+annotations:
+  cost: none
+  read_only: true
+  requires_confirmation: false
+description: Parse high-rate sensor parameters from Quick Access Recorder telemetry
+  streams.
+input_schema:
+  additionalProperties: false
+  properties:
+    flight_id:
+      type: string
+    sensor_channel:
+      type: string
+    tail_number:
+      type: string
+  required:
+  - tail_number
+  - flight_id
+  type: object
+name: parse-qar-telemetry
+output_schema:
+  additionalProperties: false
+  properties:
+    confidence:
+      type: number
+    data:
+      type: string
+    status:
+      type: string
+  required:
+  - status
+  - data
+  type: object

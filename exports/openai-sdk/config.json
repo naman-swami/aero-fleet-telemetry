@@ -1,0 +1,28 @@
+{
+  "name": "aero-fleet-telemetry",
+  "instructions": "You are aero-fleet-telemetry. Analyze ARINC flight recorder bus telemetry to predict turbine exhaust gas temperature margins and optimize en-route fuel efficiency.",
+  "model": "gpt-4o",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "parse-qar-telemetry",
+        "description": "Parse high-rate sensor parameters from Quick Access Recorder telemetry streams."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "calculate-optimal-step-climb",
+        "description": "Determine gross weight vs wind gradient to calculate fuel-optimal flight level steps."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "generate-maintenance-taskcard",
+        "description": "Create ATA chapter task card for turnaround ground line maintenance crew."
+      }
+    }
+  ]
+}
