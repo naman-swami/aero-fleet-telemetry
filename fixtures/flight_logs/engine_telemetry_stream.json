@@ -1,0 +1,20 @@
+[
+  {
+    "flight_id": "FL-902",
+    "tail_number": "N780AA",
+    "egt_celsius": 685.0,
+    "egt_redline_celsius": 725.0,
+    "n1_vibration_ips": 0.42,
+    "n2_vibration_ips": 0.38,
+    "oil_pressure_psi": 55.0
+  },
+  {
+    "flight_id": "FL-903",
+    "tail_number": "N782AA",
+    "egt_celsius": 718.0,
+    "egt_redline_celsius": 725.0,
+    "n1_vibration_ips": 1.15,
+    "n2_vibration_ips": 0.85,
+    "oil_pressure_psi": 38.0
+  }
+]
