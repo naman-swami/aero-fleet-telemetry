@@ -55,7 +55,7 @@ aero-fleet-telemetry/
 │   └── icao_airworthiness_standards.md  # Airworthiness guidelines
 ├── tests/
 │   └── test_agent.py                # Telemetry test suite
-├── main.py                          # Avionics CLI
+├── avionics.py                          # Avionics CLI
 └── requirements.txt
 ```
 
@@ -66,5 +66,5 @@ aero-fleet-telemetry/
 pytest tests/ -v
 
 # Evaluate benchmark telemetry log
-python main.py --demo
+python avionics.py --demo
 ```
